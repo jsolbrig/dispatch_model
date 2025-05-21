@@ -1,0 +1,4 @@
+apiVersion: dispatch_model/v2
+kind: Test
+test: test
+test2: test2
