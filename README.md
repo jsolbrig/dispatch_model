@@ -9,9 +9,16 @@ The package contains two API versions, v1 and v2. They can be referenced using `
 dispatch_model/v1` and `apiVersion: dispatch_model/v2`, respectively. Also provided are a test 
 script, `test_manifest.py` and test manifests under `./manifests`.
 
-`test_manifests.py` accepts a single argument. That argument should be the path to a manifest to be 
-tested. Calling `test_manifests.py` with the three provided test manifests should result in the 
-following:
+## Installation
+```
+pip install .
+```
+
+## Testing
+To test this, first install the package (tested on python 3.11). Then call `test_manifests.py` as 
+shown below. `test_manifests.py` accepts a single argument. That argument should be the path to a 
+manifest to be tested. Calling `test_manifests.py` with the three provided test manifests should 
+result in the following:
 
 ```bash
 > python test_manifest.py ./manifests/good_v1.yaml
